@@ -19,8 +19,7 @@
         </div>
         <p class="overview">   
         {{ result.overview }}
-         
-        </p>
+         </p>
         <p class="release-date">Original Release: {{ result.release_date }}</p>
         <ul class="genre-list">
           <li v-for="genre in result.genres">{{ genre }}</li>
